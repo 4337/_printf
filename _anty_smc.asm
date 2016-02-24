@@ -39,7 +39,7 @@ start:
   mov     __seh,eax
  
   mov     eax, callme
-  m__call callme           ;we can't use seh for library call due to secutrity mitigation 
+  m__call callme           ;we can't use seh for library call due to secutrity mitigation (normally we can't :D) 
   
   ;ret
 
